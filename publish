@@ -1,4 +1,3 @@
 #!/usr/bin/env bash
 
-mkpublic boxit.rb ~/bin/boxit
 mkpublic mkpublic.sh ~/bin/mkpublic
