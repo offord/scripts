@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+rsync -catv boxit.rb ~/bin/boxit | grep -v ^sending | grep -v ^sent | grep -v ^total | egrep -v '^ *$'
